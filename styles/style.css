@@ -1,0 +1,272 @@
+body {
+  font-family: "Exo 2", sans-serif;
+}
+
+.header {
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(../images/banner1.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  padding-top: 20px;
+  text-align: center;
+  color: white;
+}
+
+.header img {
+  width: 170px;
+}
+
+.header h1 {
+  padding-top: 260px;
+  padding-bottom: 0;
+  font-size: 55px;
+  font-family: "Lobster", "Exo 2", sans-serif;
+}
+
+.header p {
+  margin: 18px 0;
+}
+
+.login-btn {
+  width: 100px;
+  padding: 8px 0;
+  outline: none !important;
+  border: 2px solid white;
+  border-radius: 50px;
+  background-color: transparent;
+  color: white;
+}
+
+.input-group {
+  width: 90% !important;
+  max-width: 500px;
+  border-radius: 30px;
+  background-color: white;
+  margin: auto;
+  padding: 2px;
+}
+
+.form-control {
+  border: 0 !important;
+  border-radius: 30px 0 0 30px !important;
+  margin: 2px;
+  box-shadow: none !important;
+}
+
+.input-group-text {
+  width: 100px;
+  background-image: linear-gradient(#00ff7e, #1f3d90);
+  border: 0 !important;
+  color: white !important;
+  padding: 10px 25px;
+  border-radius: 30px;
+  box-shadow: none !important;
+}
+
+.features {
+  padding: 100px 0;
+}
+
+.features .h1 {
+  text-align: center;
+  padding-bottom: 30px;
+  font-family: "Lobster", "Exo 2", sans-serif;
+}
+
+.features .fa {
+  font-size: 15px;
+  color: #ff5722;
+}
+
+.feature-box {
+  box-shadow: 0 0 10px 1px rgba(37, 73, 217, 0.18);
+  margin-bottom: 30px;
+}
+
+.feature-img {
+  position: relative;
+}
+
+.feature-img img {
+  width: 100%;
+}
+
+.feature-price {
+  width: 50px;
+  height: 50px;
+  background-color: #ff5722;
+  color: white;
+  font-weight: 600;
+  border-radius: 50%;
+  padding: 10px;
+  box-shadow: 0 0 10px 1px rgba(37, 73, 217, 0.18);
+  position: absolute;
+  left: 20px;
+  bottom: -25px;
+}
+
+.feature-rating {
+  padding: 3px;
+  background-color: white;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.feature-body {
+  padding: 20px;
+  text-align: justify;
+}
+
+.feature-body h4 {
+  font-weight: 600;
+  margin-top: 20px;
+}
+
+.feature-body .fa {
+  margin-right: 5px;
+}
+
+.gallery {
+  padding: 100px 0;
+  background-color: #efefef;
+}
+
+.gallery .h1 {
+  text-align: center;
+  padding-bottom: 30px;
+  font-family: "Lobster", "Exo 2", sans-serif;
+}
+
+.gallery-box {
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.gallery-box img {
+  width: 100%;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 1s;
+}
+
+.gallery-box img:hover {
+  transform: scale(1.1);
+}
+
+.gallery-box h4 {
+  display: block;
+  color: white;
+  text-shadow: -2px 2px 2px black;
+  font-weight: 600;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.banner {
+  height: 80vh;
+  background-image: url(../images/banner2.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  padding-top: 15%;
+}
+
+.banner-highlight {
+  padding: 100px 0;
+  margin: 50px 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  text-align: center;
+  color: white;
+}
+
+.booking-btn {
+  width: 120px;
+  padding: 8px 0;
+  outline: none !important;
+  border: 2px solid white;
+  border-radius: 50px;
+  background-color: transparent;
+  color: white;
+  margin-top: 20px;
+}
+
+.user-feedback {
+  padding: 100px 0;
+}
+
+.user-feedback .h1 {
+  text-align: center;
+  padding-bottom: 30px;
+  font-family: "Lobster", "Exo 2", sans-serif;
+}
+
+.user-feedback img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  position: relative;
+  margin: -30px 0 20px 42.5%;
+}
+
+.user-review {
+  text-align: center;
+  box-shadow: 0 0 10px 1px rgba(0, 0, 100, 0.2);
+  padding-bottom: 50px;
+}
+
+.user-review .fa {
+  color: #6598ed;
+  font-size: 50px;
+  padding-top: 30px;
+}
+
+.user-review p {
+  padding: 30px 10px 10px 10px;
+}
+
+.footer {
+  padding: 100px 20px 15px;
+  background-image: linear-gradient(#2d557d, #9610fd);
+  color: white;
+}
+
+.footer h4 {
+  text-align: left;
+  margin-top: 15px;
+  margin-bottom: 25px;
+}
+
+.footer p {
+  font-size: 12px;
+  text-align: justify;
+  padding-right: 35px;
+}
+
+.footer .fa {
+  font-size: 15px;
+}
+
+.footer hr {
+  margin-top: 10px;
+  background-color: #efefef;
+}
+
+.footer .copyright {
+  text-align: center;
+}
+
+.footer .copyright .fa {
+  margin: 0 5px;
+  color: red;
+}
+
+.footer-img {
+  width: 150px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
